@@ -1,4 +1,16 @@
-.advice-list {
+.advice_visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.advice_list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,11 +18,11 @@
     margin-right: auto;
 }
 
-.advice-iten:not(:last-child) {
+.advice_iten:not(:last-child) {
     margin-right: 30px;
 }
 
-.div-input {
+.advice_div-input{
     display: flex;
     width: 270px;
     height: 120px;
@@ -21,7 +33,7 @@
     justify-content: center;
 }
 
-.input {
+.advice_input{
     width: 70px;
     height: 70px;
     background-size: 50%;
@@ -31,7 +43,7 @@
     width: 270px;
 }
 
-.advice-subtitle {
+.advice_subtitle {
     width: 270px;
     height: 16px;
     margin-bottom: 10px;
@@ -43,7 +55,7 @@
     color: var(--primary-light-txt);
 }
 
-.advice-descr {
+.advice_descr {
 
     font-size: 14px;
     line-height: 1.71;
